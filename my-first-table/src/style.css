@@ -1,0 +1,121 @@
+/* styles.css */
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+    background: linear-gradient(135deg, #fcfcfd, #fffaec);
+  }
+  
+  .table.table-stripped {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  hr{
+    /* color: rgba(229, 49, 85, 0.92); */
+    color: blueviolet;
+    width: 80%;
+    size: 2px;
+  }
+  
+  .table.table-stripped th, .table.table-stripped td {
+    padding: 15px;
+    text-align: center;
+    border: 1.5px solid black /* Add border for better separation */
+  }
+  
+  input {
+    margin-right: 10px;
+    height: 30px;
+    font-size: 20px;
+  }
+  #search{
+    margin-left: 160px;
+  }
+  .input {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+  
+  th {
+    font-size: 20px;
+    background-color: rgba(229, 49, 85, 0.92);
+  }
+  
+  td {
+    font-size: 25px;
+  }
+  
+  h1 {
+    text-align: left;
+    margin-left: 4cm;
+    font-size: 275%;
+  }
+  
+  button {
+    height: 40px;
+    font-size: 15px;
+    /* Add some background and text color for better visibility */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .table th, .table td {
+    border: 1.5px solid #000; /* Black borders for cells */
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: white; /* Light orange for even rows */
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: white; /* Lighter orange for odd rows */
+  }
+  
+  .table tbody tr:hover {
+    background-color: whitesmoke; /* Darker orange on hover */
+  }
+  
+  /* Add Font Awesome for icons */
+  .button-icon {
+    margin-right: 5px;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    th, td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      border: none; /* Remove border for better readability on smaller screens */
+    }
+  
+    th {
+      text-align: center;
+    }
+  }
+  .buttons{
+    width:500px;
+    display:inline-flex;
+    justify-items:right;
+    margin-left: 17.9cm;
+    /* border: 1.5px solid #000;  */
+    /* align-items: end; */
+  }
+  .button1{
+    border: 1.5px solid #000; 
+    /* margin-left: 10cm; */
+  }
+  /* Add Font Awesome CDN link in your HTML file */
+  /* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-GLhlTQ8iOymoqylz9+ldF4QssE4Ipkj8Tf5eIv4FkUnyJK70UZ+3uzybe00A2rR" crossorigin="anonymous"> */
+  
